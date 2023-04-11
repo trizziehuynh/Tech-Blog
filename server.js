@@ -1,8 +1,10 @@
 const express = require("express");
+const session=require('express-session');
 const expbs = require("express-handlebars");
-
+conts routes=require("./controllers")
 const path = require("path");
-const sequelize = require("./config/connection.js");
+const sequelize = require("./config/connection");
+const helpers=require('./utils/helpers');
 
 //Set up the express app
 const app = express();
@@ -19,6 +21,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "public")));
 
 //routes handling
+app.use(routes);
 
 // Starts the server to begin listening
 sequelize.sync({ force: false }).then(() => {
