@@ -1,10 +1,11 @@
 const express = require("express");
-const session=require('express-session');
+const session = require("express-session");
 const expbs = require("express-handlebars");
-conts routes=require("./controllers")
+const routes = require("./controllers");
 const path = require("path");
 const sequelize = require("./config/connection");
-const helpers=require('./utils/helpers');
+//User Authentication
+// const helpers = require("./utils/helpers");
 
 //Set up the express app
 const app = express();
