@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Wired",
+    "description": "Wired is a popular tech blog that observes how technology affects human lives across culture, politics, and security. Business leaders can access informative news, delivered through approachable, easy-to-understand content. Focused on breakthroughs and innovation, you’ll also find hot takes on modern life, tech trends, and gadget reviews.",
+    "user_id": "1"
+  },
+  {
+    "title": "Fast Company",
+    "description": "Fast Company is one of the top business media brands, with an editorial focus on technological innovation, leadership, and world-changing ideas. Aimed at progressive business leaders, the blog’s stated purpose is to inspire readers to think expansively, lead with purpose, embrace change, and shape the future of business.",
+    "user_id": "2"
+  },
+  {
+    "title": "IT Brew",
+    "description": "IT Brew shares the latest news and analysis of trends shaping the IT industry, particularly within the areas of cybersecurity, big data, software development, remote work, cloud computing, and data privacy. Delivered in an easily digestible format and style, their daily newsletter is the perfect resource for all levels of IT knowledge and expertise.",
+    "user_id": "3"
+  }
+]
